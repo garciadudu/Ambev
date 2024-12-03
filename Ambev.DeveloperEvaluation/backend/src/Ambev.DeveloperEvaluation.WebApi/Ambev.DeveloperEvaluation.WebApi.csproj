@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>3c58d567-b1d8-4a51-bd36-dbfddb84701b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Customers\ListCustomers\**" />
+    <Compile Remove="Features\Customers\UpdateCustomer\**" />
+    <Compile Remove="Features\Products\ListCustomers\**" />
+    <Compile Remove="Features\Products\UpdateCustomer\**" />
+    <Compile Remove="Features\Sales\ListSales\**" />
+    <Compile Remove="Features\Sales\UpdateSale\**" />
+    <Content Remove="Features\Customers\ListCustomers\**" />
+    <Content Remove="Features\Customers\UpdateCustomer\**" />
+    <Content Remove="Features\Products\ListCustomers\**" />
+    <Content Remove="Features\Products\UpdateCustomer\**" />
+    <Content Remove="Features\Sales\ListSales\**" />
+    <Content Remove="Features\Sales\UpdateSale\**" />
+    <EmbeddedResource Remove="Features\Customers\ListCustomers\**" />
+    <EmbeddedResource Remove="Features\Customers\UpdateCustomer\**" />
+    <EmbeddedResource Remove="Features\Products\ListCustomers\**" />
+    <EmbeddedResource Remove="Features\Products\UpdateCustomer\**" />
+    <EmbeddedResource Remove="Features\Sales\ListSales\**" />
+    <EmbeddedResource Remove="Features\Sales\UpdateSale\**" />
+    <None Remove="Features\Customers\ListCustomers\**" />
+    <None Remove="Features\Customers\UpdateCustomer\**" />
+    <None Remove="Features\Products\ListCustomers\**" />
+    <None Remove="Features\Products\UpdateCustomer\**" />
+    <None Remove="Features\Sales\ListSales\**" />
+    <None Remove="Features\Sales\UpdateSale\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ambev.DeveloperEvaluation.IoC\Ambev.DeveloperEvaluation.IoC.csproj" />
+    <ProjectReference Include="..\Ambev.DeveloperEvaluation.ORM\Ambev.DeveloperEvaluation.ORM.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Users\GetUser\" />
+    <Folder Include="Features\Users\DeleteUser\" />
+    <Folder Include="Features\Users\ListUsers\" />
+    <Folder Include="Features\Users\UpdateUser\" />
+  </ItemGroup>
+
+</Project>
