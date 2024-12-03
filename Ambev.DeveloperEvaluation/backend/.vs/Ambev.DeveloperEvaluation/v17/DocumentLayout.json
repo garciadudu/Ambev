@@ -537,8 +537,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T01:27:14.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T01:27:14.68Z"
             },
             {
               "$type": "Document",
@@ -550,8 +549,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAuwGQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:53:03.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T14:53:03.438Z"
             },
             {
               "$type": "Document",
@@ -563,8 +561,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAiwBQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:28:33.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T18:28:33.955Z"
             },
             {
               "$type": "Document",
@@ -576,8 +573,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:17:17.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T19:17:17.637Z"
             },
             {
               "$type": "Document",
@@ -589,8 +585,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:49:38.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T14:49:38.812Z"
             },
             {
               "$type": "Document",
@@ -602,8 +597,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T13:09:20.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T13:09:20.764Z"
             },
             {
               "$type": "Document",
@@ -615,8 +609,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:45:15.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T10:45:15.607Z"
             },
             {
               "$type": "Document",
@@ -628,8 +621,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAawBUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:07:36.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T15:07:36.349Z"
             },
             {
               "$type": "Document",
@@ -666,8 +658,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Middleware\\ValidationExceptionMiddleware.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAawBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:37:44.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T18:37:44.112Z"
             },
             {
               "$type": "Document",
@@ -691,8 +682,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAawDkAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:45:25.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:45:25.415Z"
             },
             {
               "$type": "Document",
@@ -704,8 +694,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CustomersController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T22:11:49.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:11:49.439Z"
             },
             {
               "$type": "Document",
@@ -717,8 +706,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CreateCustomer\\CreateCustomerResponse.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:22:41.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T19:22:41.552Z"
             },
             {
               "$type": "Document",
@@ -730,8 +718,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Common\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T01:07:16.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T01:07:16.195Z"
             },
             {
               "$type": "Document",
@@ -743,8 +730,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAEwCgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:23:56.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:23:56.163Z"
             },
             {
               "$type": "Document",
@@ -756,8 +742,7 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\SaleRepository.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAASwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:40:05.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T11:40:05.229Z"
             },
             {
               "$type": "Document",

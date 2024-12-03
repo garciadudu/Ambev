@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\sistemas\\ambev\\ambev.projeto\\ambev.developerevaluation\\backend\\src\\ambev.developerevaluation.webapi\\ambev.developerevaluation.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\ambev.developerevaluation.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\sistemas\\ambev\\ambev.projeto\\ambev.developerevaluation\\backend\\src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\features\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -149,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\sistemas\\ambev\\ambev.projeto\\ambev.developerevaluation\\backend\\src\\ambev.developerevaluation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\sistemas\\ambev\\ambev.projeto\\ambev.developerevaluation\\backend\\src\\ambev.developerevaluation.webapi\\ambev.developerevaluation.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\ambev.developerevaluation.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80CED839-FE4A-4286-9403-252D230BA2A0}|src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj|c:\\sistemas\\ambev\\ambev.projeto\\ambev.developerevaluation\\backend\\src\\ambev.developerevaluation.application\\sales\\createsale\\createsalevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -517,7 +517,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 348,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -529,7 +529,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
+              "Title": "GetSaleHandler.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:27:14.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:53:03.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwBQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:28:33.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:17:17.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetSaleProfile.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:49:38.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SaleConfiguration.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:09:20.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetProductHandler.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:45:15.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetSaleCommand.cs",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:07:36.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ambev.DeveloperEvaluation.WebApi.csproj",
+              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
+              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T01:37:51.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ApplicationLayer.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\ApplicationLayer.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\ApplicationLayer.cs",
@@ -541,111 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetSaleHandler.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleHandler.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T01:27:14.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\SalesController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:53:03.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Products\\ProductsController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwBQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:28:33.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:17:17.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetSaleProfile.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\GetSale\\GetSaleProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:49:38.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SaleConfiguration.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\SaleConfiguration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T13:09:20.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetProductHandler.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Products\\GetProduct\\GetProductHandler.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:45:15.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetSaleCommand.cs",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAawBUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:07:36.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ValidationExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Middleware\\ValidationExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Middleware\\ValidationExceptionMiddleware.cs",
@@ -653,12 +658,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Middleware\\ValidationExceptionMiddleware.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAawBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:37:44.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T18:37:44.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateSaleResponse.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\CreateSale\\CreateSaleResponse.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\CreateSale\\CreateSaleResponse.cs",
@@ -670,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
@@ -678,12 +682,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Program.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAawDkAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:45:25.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:45:25.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CustomersController.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CustomersController.cs",
@@ -691,12 +694,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CustomersController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T22:11:49.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:11:49.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CreateCustomerResponse.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CreateCustomer\\CreateCustomerResponse.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CreateCustomer\\CreateCustomerResponse.cs",
@@ -704,12 +706,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Customers\\CreateCustomer\\CreateCustomerResponse.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:22:41.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T19:22:41.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Common\\ApiResponse.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Common\\ApiResponse.cs",
@@ -717,12 +718,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Common\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T01:07:16.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T01:07:16.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DefaultContext.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
@@ -730,12 +730,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\DefaultContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAEwCgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:23:56.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T15:23:56.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SaleRepository.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\SaleRepository.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\SaleRepository.cs",
@@ -743,12 +742,11 @@
               "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.ORM\\Repositories\\SaleRepository.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAASwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:40:05.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T11:40:05.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "GetUserHandler.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Users\\GetUser\\GetUserHandler.cs",
@@ -760,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ListProductResult.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\ListProduct\\ListProductResult.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\ListProduct\\ListProductResult.cs",
@@ -772,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ListCustomerResult.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Customers\\ListCustomer\\ListCustomerResult.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Customers\\ListCustomer\\ListCustomerResult.cs",
@@ -784,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Ambev.DeveloperEvaluation.Application.csproj",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Ambev.DeveloperEvaluation.Application.csproj",
@@ -797,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "GetSaleResult.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleResult.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\GetSale\\GetSaleResult.cs",
@@ -809,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CreateSaleHandler.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleHandler.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleHandler.cs",
@@ -821,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CreateSaleProfile.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\CreateSale\\CreateSaleProfile.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Features\\Sales\\CreateSale\\CreateSaleProfile.cs",
@@ -833,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CreateProductResult.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductResult.cs",
@@ -845,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CreateProductProfile.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Products\\CreateProduct\\CreateProductProfile.cs",
@@ -857,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CreateSaleResult.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleResult.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleResult.cs",
@@ -869,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CreateCustomerCommand.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
@@ -881,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CreateSaleProfile.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleProfile.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleProfile.cs",
@@ -893,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Ambev.DeveloperEvaluation.WebApi.http",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.http",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.http",
@@ -905,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CreateSaleDTO.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleDTO.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\CreateSaleDTO.cs",
@@ -917,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20241202215837_Initial.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Migrations\\20241202215837_Initial.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Migrations\\20241202215837_Initial.cs",
@@ -929,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\appsettings.Development.json",
@@ -941,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "CustomerConfiguration.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CustomerConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.ORM\\Mapping\\CustomerConfiguration.cs",
@@ -953,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "DefaultContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Migrations\\DefaultContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Migrations\\DefaultContextModelSnapshot.cs",
@@ -965,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SaleStatusDTO.cs",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\SaleStatusDTO.cs",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.Application\\Sales\\CreateSale\\SaleStatusDTO.cs",
@@ -989,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
@@ -1022,19 +1020,6 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:02:32.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Ambev.DeveloperEvaluation.WebApi.csproj",
-              "DocumentMoniker": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
-              "ToolTip": "C:\\sistemas\\ambev\\Ambev.Projeto\\Ambev.DeveloperEvaluation\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-02T01:37:51.133Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
