@@ -1,0 +1,22 @@
+.flexbox {
+    display: flex;
+}
+
+.beverage {
+    flex-direction: row;
+    width: 250px;
+    text-align: center;
+    border: solid silver;
+    border-radius: 30px 30px;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+.edit {
+    align-self: center;
+}
+
+.espacamento {
+    margin: 0.5px;
+}

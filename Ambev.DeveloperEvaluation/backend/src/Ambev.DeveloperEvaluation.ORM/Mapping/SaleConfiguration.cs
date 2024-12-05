@@ -28,5 +28,10 @@ public class SaleConfiguration : IEntityTypeConfiguration<Sale>
             .HasForeignKey(u => u.CustomerId)
             .OnDelete(DeleteBehavior.ClientNoAction);
 
+        builder.HasOne(u => u.Filiation)
+            .WithMany(x => x.Sales)
+            .HasForeignKey(u => u.FiliationId)
+            .OnDelete(DeleteBehavior.ClientNoAction);
+
     }
 }

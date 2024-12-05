@@ -1,1 +1,34 @@
-<p>customer works!</p>
+<div class="row"> 
+    <div class="col-sm-1">
+        <label>CPF/CNPJ</label>
+    </div>
+    
+    <div class="col-sm-4">
+        <input type="text" name="cpf" id="cpf" [(ngModel)]="this.customerService.customer.CPF_CNPJ">    
+    </div>
+
+    <div class="col-sm-4">
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome" [(ngModel)]="this.customerService.customer.nome">
+    </div>
+</div>
+
+<br />
+
+<div class="row"> 
+    <div class="col-sm-1">
+        <label>Filiais</label>
+    </div>
+    <div class="col-sm-4">
+        <select name="filiais" id="filiais">
+            <option value="saopaulo">São Paulo</option>
+            <option value="riodejaneiro">Rio de Janeiro</option>
+            <option value="campinas">Campinas</option>
+          </select>
+    </div>
+</div>
+
+
+<br />
+
+<button type="button" class="btn btn-success" (click)="pagar()">Processar Pagamento »</button>

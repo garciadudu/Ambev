@@ -1,9 +1,7 @@
 using Ambev.DeveloperEvaluation.Domain.Common;
 using Ambev.DeveloperEvaluation.Domain.Enums;
-using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Ambev.DeveloperEvaluation.Domain.Entities;
-
 
 public class Sale : BaseEntity
 {
@@ -15,6 +13,10 @@ public class Sale : BaseEntity
     public Guid CustomerId { get; set; }
 
     public virtual Customer Customer { get; set; }
+
+    public Guid FiliationId { get; set; }
+
+    public virtual Filiation Filiation { get; set; }
 
     public double TotalSalesAmount { get; set; }
 

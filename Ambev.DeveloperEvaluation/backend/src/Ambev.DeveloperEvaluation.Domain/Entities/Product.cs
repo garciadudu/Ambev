@@ -19,4 +19,6 @@ public class Product : BaseEntity
 
     public Guid SaleId { get; set; }
     public virtual Sale Sale { get; set; }
+
+    public ProductStatus Status { get; set; }
 }

@@ -167,6 +167,61 @@
     ]
   },
   {
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliaitionsController",
+    "Method": "CreateFiliation",
+    "RelativePath": "api/Filiaitions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Features.Filiations.CreateFiliation.CreateFiliationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData\u00601[[Ambev.DeveloperEvaluation.WebApi.Features.Filiations.CreateFiliation.CreateFiliationResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliaitionsController",
+    "Method": "GetList",
+    "RelativePath": "api/Filiations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData\u00601[[Ambev.DeveloperEvaluation.WebApi.Features.Filiations.ListFiliation.ListFiliationResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Features.Customers.ProductsController",
     "Method": "GetProduct",
     "RelativePath": "api/Products/{id}",

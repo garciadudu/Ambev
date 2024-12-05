@@ -1,8 +1,10 @@
 ﻿using Ambev.DeveloperEvaluation.Domain.Entities;
 using Ambev.DeveloperEvaluation.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 using System;
 using System.Threading;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Ambev.DeveloperEvaluation.ORM.Repositories;
 
@@ -22,9 +24,26 @@ public class SaleRepository : ISaleRepository
         if (customer != null) 
         {
             sale.Customer = customer;
+
+            _context.Entry(sale.Customer).State = EntityState.Unchanged;
+        }
+        else
+        {
+            customer = new Customer
+            {
+                CPF_CNPJ = sale.Customer.CPF_CNPJ,
+                Nome = sale.Customer.Nome,
+            };
+                
+            sale.Customer = customer;
         }
 
-        _context.Entry(sale.Customer).State = EntityState.Unchanged;
+        await _context.Database.ExecuteSqlAsync($"CREATE SEQUENCE IF NOT EXISTS 'venda'", cancellationToken);
+
+        var sequence = await _context.Database.ExecuteSqlAsync($"SELECT nextval('venda')", cancellationToken);
+
+        sale.Number = sequence;
+
 
         await _context.Sales.AddAsync(sale, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);
@@ -59,4 +78,5 @@ public class SaleRepository : ISaleRepository
 
         return lists;
     }
+
 }

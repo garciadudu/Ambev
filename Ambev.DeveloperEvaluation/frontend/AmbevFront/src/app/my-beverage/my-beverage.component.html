@@ -1,0 +1,26 @@
+<div class="flexbox">
+    <div *ngFor="let item of this.beverageService.list" class="beverage">
+        <img src='{{item.image}}' width="100px" />
+        <p>{{item.description}}</p>
+        <div class="edit">
+            <button type="button" class="btn btn-secondary" (click)="menos(item)">-</button>
+            <input type="number" readonly name="qtd" id="qtd" min="0" max="20" value="0" [(value)]="item.qtd"/>
+            <button type="button" class="btn btn-secondary" (click)="mais(item)">+</button>
+        </div>
+        <p>{{ item.price | currency:'BRL' }}</p>
+        
+        <p *ngIf="item.desc">
+            {{ item.desc }} OFF
+        </p>
+
+        <p *ngIf="item.total">
+            {{ item.total | currency:'BRL' }}
+            {{ item.totalDesc | currency:'BRL' }} OFF
+        </p>
+   
+        <button type="button" class="btn btn-secondary espacamento" (click)="adicionar(item)">Adicionar</button>
+        <button type="button" class="btn btn-secondary espacamento" (click)="remover(item)">Remover</button>
+    </div>
+</div>
+
+<button type="button" class="btn btn-success espacamento" (click)="finalizarCompra()">Finalizar Compra »</button>

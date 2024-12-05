@@ -30,16 +30,35 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .HasDefaultValueSql("gen_random_uuid()");
 
                     b.Property<string>("CPF_CNPJ")
+                        .IsRequired()
                         .HasMaxLength(18)
                         .HasColumnType("character varying(18)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Customers", (string)null);
+                });
+
+            modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Filiation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasDefaultValueSql("gen_random_uuid()");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Filiations", (string)null);
                 });
 
             modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Product", b =>
@@ -65,6 +84,9 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
 
                     b.Property<Guid>("SaleId")
                         .HasColumnType("uuid");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
 
                     b.Property<double>("TotalAmount")
                         .HasColumnType("numeric(15,2)");
@@ -93,6 +115,9 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<Guid>("FiliationId")
+                        .HasColumnType("uuid");
+
                     b.Property<int>("Number")
                         .HasColumnType("int");
 
@@ -105,6 +130,8 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CustomerId");
+
+                    b.HasIndex("FiliationId");
 
                     b.ToTable("Sales", (string)null);
                 });
@@ -176,10 +203,23 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                         .OnDelete(DeleteBehavior.ClientNoAction)
                         .IsRequired();
 
+                    b.HasOne("Ambev.DeveloperEvaluation.Domain.Entities.Filiation", "Filiation")
+                        .WithMany("Sales")
+                        .HasForeignKey("FiliationId")
+                        .OnDelete(DeleteBehavior.ClientNoAction)
+                        .IsRequired();
+
                     b.Navigation("Customer");
+
+                    b.Navigation("Filiation");
                 });
 
             modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Customer", b =>
+                {
+                    b.Navigation("Sales");
+                });
+
+            modelBuilder.Entity("Ambev.DeveloperEvaluation.Domain.Entities.Filiation", b =>
                 {
                     b.Navigation("Sales");
                 });

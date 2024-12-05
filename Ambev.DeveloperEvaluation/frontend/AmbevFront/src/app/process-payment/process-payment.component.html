@@ -1,0 +1,128 @@
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Seu Pagamento foi processado com sucesso
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Número da Venda
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            {{ this.customerService.meuRetorno?.Number }}
+        </label>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Data em que a venda foi realizada
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            {{ this.customerService.meuRetorno?.Date | date : 'dd/MM/yyyy'}}
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Cliente
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            {{ this.customerService.meuRetorno?.Customer?.nome }}
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Valor total da venda
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            {{ this.customerService.meuRetorno?.TotalSalesAmount | currency:'BRL' }}
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            Filial
+        </label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <label>
+            xxxxxxxxx
+        </label>
+    </div>
+</div>
+
+
+<table>
+    <thead>
+        <tr>
+            <td>Produtos|</td>
+            <td>Quantidades|</td>
+            <td>Preço Unitários|</td>
+            <td>Descontos|</td>
+            <td>Valor total de cada item|</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let produto of this.customerService.meuRetorno?.Products">
+            <td>
+                {{ produto.Descriptions }}|
+            </td>
+            <td>
+                {{ produto.Quantity }}|
+            </td>
+            <td>
+                {{ produto.Price | currency:'BRL' }}|
+            </td>
+            <td>
+                {{ (produto.Quantity * produto.Price) | currency:'BRL'}}|
+            </td>
+            <td>
+                {{ produto.Discounts }}|
+            </td>
+            <td>
+                XXXXXXXX
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br />
+
+<button type="button" class="btn btn-success" (click)="novaCompra()">Nova Compra »</button>

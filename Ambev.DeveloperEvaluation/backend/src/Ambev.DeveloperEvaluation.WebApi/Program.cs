@@ -53,6 +53,8 @@ public class Program
                 );
             });
 
+            builder.Services.AddCors();
+
             builder.Services.AddMvc()
                  .AddJsonOptions(
                      options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
@@ -70,6 +72,8 @@ public class Program
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthentication();
             app.UseAuthorization();

@@ -1,8 +1,3 @@
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.csproj.AssemblyReference.cache
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.AssemblyInfoInputs.cache
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.AssemblyInfo.cs
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.csproj.CoreCompileInputs.cache
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Application.deps.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Application.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Application.pdb
@@ -10,6 +5,12 @@ C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.Deve
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.pdb
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.pdb
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.csproj.AssemblyReference.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.AssemblyInfoInputs.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.AssemblyInfo.cs
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.csproj.CoreCompileInputs.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.sourcelink.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.De.8B5E65A2.Up2Date
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\Ambev.DeveloperEvaluation.Application.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.Application\obj\Debug\net8.0\refint\Ambev.DeveloperEvaluation.Application.dll

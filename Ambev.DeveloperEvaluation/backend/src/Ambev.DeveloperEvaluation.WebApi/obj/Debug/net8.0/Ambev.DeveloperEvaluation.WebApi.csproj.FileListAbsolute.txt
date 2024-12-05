@@ -1,9 +1,3 @@
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.csproj.AssemblyReference.cache
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.AssemblyInfoInputs.cache
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.AssemblyInfo.cs
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.csproj.CoreCompileInputs.cache
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\appsettings.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.staticwebassets.endpoints.json
@@ -132,10 +126,18 @@ C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.Deve
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.IoC.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.ORM.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.IoC.pdb
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.ORM.pdb
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Application.pdb
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.pdb
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.pdb
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\bin\Debug\net8.0\Ambev.DeveloperEvaluation.ORM.pdb
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.csproj.AssemblyReference.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.AssemblyInfoInputs.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.AssemblyInfo.cs
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.csproj.CoreCompileInputs.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.sourcelink.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\scopedcss\bundle\Ambev.DeveloperEvaluation.WebApi.styles.css
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets.development.json
@@ -152,5 +154,4 @@ C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.Deve
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.pdb
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.genruntimeconfig.cache
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\ref\Ambev.DeveloperEvaluation.WebApi.dll
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
