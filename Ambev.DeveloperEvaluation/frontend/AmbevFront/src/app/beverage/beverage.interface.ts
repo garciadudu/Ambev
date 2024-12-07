@@ -13,4 +13,5 @@ export interface Beverage {
     desc: number;
     totalDesc: number;
     total: number;
+    status: string;
 }

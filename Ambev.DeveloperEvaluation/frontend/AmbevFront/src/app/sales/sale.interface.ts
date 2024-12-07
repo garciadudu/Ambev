@@ -1,4 +1,5 @@
 import { Customer } from "../customer/customer.interface";
+import { Filiation } from "../Filiation/filiation.interface";
 import { Product } from "../product/product.interface";
 
 export enum SaleStatus
@@ -15,5 +16,6 @@ export interface Sale {
     TotalSalesAmount: number;
     Branch: string;
     Products: Product[];
-    SaleStatus: SaleStatus
+    SaleStatus: SaleStatus;
+    Filiation: Filiation;
 }

@@ -167,9 +167,53 @@
     ]
   },
   {
-    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliaitionsController",
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Features.Customer.CustomersController",
+    "Method": "GetCustomerCPF_CNPJ",
+    "RelativePath": "api/Customers/v2/{cpf_cnpj}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf_cnpj",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData\u00601[[Ambev.DeveloperEvaluation.WebApi.Features.Customers.GetCustomerCPF_CNPJ.GetCustomerCPF_CNPJResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliationsController",
     "Method": "CreateFiliation",
-    "RelativePath": "api/Filiaitions",
+    "RelativePath": "api/Filiations",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -202,7 +246,7 @@
     ]
   },
   {
-    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliaitionsController",
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliationsController",
     "Method": "GetList",
     "RelativePath": "api/Filiations",
     "HttpMethod": "GET",
@@ -218,6 +262,50 @@
           "text/json"
         ],
         "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations.FiliationsController",
+    "Method": "GetFiliation",
+    "RelativePath": "api/Filiations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData\u00601[[Ambev.DeveloperEvaluation.WebApi.Features.Filiations.GetFiliation.GetFiliationResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Ambev.DeveloperEvaluation.WebApi.Common.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },

@@ -15,7 +15,6 @@ C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.De
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\Bogus.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\Castle.Core.dll
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\Dapper.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\FluentAssertions.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\FluentValidation.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Unit\bin\Debug\net8.0\Humanizer.dll

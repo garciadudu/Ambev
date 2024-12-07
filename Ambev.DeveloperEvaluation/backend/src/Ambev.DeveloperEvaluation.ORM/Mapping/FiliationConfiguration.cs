@@ -14,7 +14,8 @@ public class FiliationConfiguration : IEntityTypeConfiguration<Filiation>
 
         builder.Property(u => u.Id).HasColumnType("uuid").HasDefaultValueSql("gen_random_uuid()");
 
-        builder.Property(u => u.Nome).HasMaxLength(100);
+        builder.Property(u => u.Codigo).HasMaxLength(15);
 
+        builder.Property(u => u.Nome).HasMaxLength(100);
     }
 }

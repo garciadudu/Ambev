@@ -66,14 +66,6 @@
       },
       "coverlet.collector/6.0.2": {},
       "coverlet.msbuild/6.0.2": {},
-      "Dapper/2.1.35": {
-        "runtime": {
-          "lib/net7.0/Dapper.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.35.13827"
-          }
-        }
-      },
       "FluentAssertions/6.12.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.4.0"
@@ -1341,7 +1333,6 @@
       "Ambev.DeveloperEvaluation.ORM/1.0.0": {
         "dependencies": {
           "Ambev.DeveloperEvaluation.Domain": "1.0.0",
-          "Dapper": "2.1.35",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
@@ -1402,13 +1393,6 @@
       "sha512": "sha512-8b4jBNH7mcQy1otyQErjjIUuGD74XxKZ1wvDufbY7jhWwckl7wIa+icjwdPYeI0aYMS4Tp63LIZvyMFjWwOMDw==",
       "path": "coverlet.msbuild/6.0.2",
       "hashPath": "coverlet.msbuild.6.0.2.nupkg.sha512"
-    },
-    "Dapper/2.1.35": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
-      "path": "dapper/2.1.35",
-      "hashPath": "dapper.2.1.35.nupkg.sha512"
     },
     "FluentAssertions/6.12.0": {
       "type": "package",

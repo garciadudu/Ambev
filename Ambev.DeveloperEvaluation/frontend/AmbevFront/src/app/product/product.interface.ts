@@ -4,4 +4,5 @@ export interface Product {
     Price: number;
     Discounts: number;
     TotalAmount: number;
+    Status: string;
 }

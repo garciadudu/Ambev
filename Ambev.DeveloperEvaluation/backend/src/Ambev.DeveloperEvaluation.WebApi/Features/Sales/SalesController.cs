@@ -10,9 +10,6 @@ using Ambev.DeveloperEvaluation.Application.Sales.GetSale;
 using Ambev.DeveloperEvaluation.Application.Sales.DeleteSale;
 using Ambev.DeveloperEvaluation.WebApi.Features.Sales.ListSale;
 using Ambev.DeveloperEvaluation.Domain.Repositories;
-using OneOf.Types;
-using Ambev.DeveloperEvaluation.WebApi.Features.Customers.GetCustomer;
-using Ambev.DeveloperEvaluation.Application.Customers.GetCustomer;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Sales.Sales;
 

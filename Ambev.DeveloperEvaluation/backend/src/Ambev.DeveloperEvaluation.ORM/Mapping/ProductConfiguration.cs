@@ -25,6 +25,11 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         builder.Property(u => u.TotalAmount).HasColumnType("numeric(15,2)");
 
+        builder.Property(u => u.Status)
+            .HasConversion<string>()
+            .HasMaxLength(20);
+
+
         builder.HasOne(u => u.Sale)
                 .WithMany(x => x.Products)
                 .HasForeignKey(u => u.SaleId)

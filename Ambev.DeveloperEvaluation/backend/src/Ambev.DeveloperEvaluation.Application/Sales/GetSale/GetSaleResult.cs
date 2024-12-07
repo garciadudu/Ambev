@@ -3,6 +3,7 @@ using Ambev.DeveloperEvaluation.Application.Products.CreateProduct;
 using Ambev.DeveloperEvaluation.Application.Products.GetProduct;
 using Ambev.DeveloperEvaluation.Common.Security;
 using Ambev.DeveloperEvaluation.Domain.Enums;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Ambev.DeveloperEvaluation.Application.Sales.GetSale;
 
@@ -11,7 +12,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.GetSale;
 /// </summary>
 public class GetSaleResult
 {
-    public int Number { get; set; }
+    public Int64 Number { get; set; }
 
     public DateTime Date { get; set; }
 

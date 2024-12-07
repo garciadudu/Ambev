@@ -5,6 +5,7 @@ using Ambev.DeveloperEvaluation.Domain.Repositories;
 using Ambev.DeveloperEvaluation.Domain.Entities;
 using Ambev.DeveloperEvaluation.Application.Customers.CreateCustomer;
 using Ambev.DeveloperEvaluation.Application.Products.CreateProduct;
+using Ambev.DeveloperEvaluation.Application.Filiations.CreateFiliation;
 
 namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale;
 
@@ -34,6 +35,13 @@ public class CreateSaleHandler : IRequestHandler<CreateSaleCommand, CreateSaleRe
             Nome = command.Customer.Nome,
         };
 
+        var filiation = new Filiation()
+        {
+            Id = new Guid(command.Filiation.Id),
+            Codigo = command.Filiation.Codigo,
+            Nome = command.Filiation.Nome,
+        };
+
         var sale = new Sale()
         {
             Branch = command.Branch,
@@ -49,16 +57,23 @@ public class CreateSaleHandler : IRequestHandler<CreateSaleCommand, CreateSaleRe
                 TotalAmount = p.TotalAmount,
             }).ToList(),
             TotalSalesAmount = command.Products.Sum(x => x.TotalAmount),
+            Filiation = filiation
         };
 
         var createdSale = await _saleRepository.CreateAsync(sale, cancellationToken);
-
 
         var createCustomer = new CreateCustomerResult
         {
             Id = new Guid(command.Customer.Id),
             CPF_CNPJ = command.Customer.CPF_CNPJ,
             Nome = command.Customer.Nome,
+        };
+
+        var createFiliation = new CreateFiliationResult
+        { 
+            Id = new Guid(command.Filiation.Id),
+            Codigo = command.Filiation.Codigo,
+            Nome = command.Filiation.Nome,
         };
 
         var result = new CreateSaleResult()
@@ -76,6 +91,8 @@ public class CreateSaleHandler : IRequestHandler<CreateSaleCommand, CreateSaleRe
                 TotalAmount = p.TotalAmount,
             }).ToList(),
             TotalSalesAmount = createdSale.TotalSalesAmount,
+            Filiation = createFiliation,
+            Status= createdSale.Status,
         };
 
         return result;

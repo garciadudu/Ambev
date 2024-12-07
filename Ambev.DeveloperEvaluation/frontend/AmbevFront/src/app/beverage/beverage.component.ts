@@ -20,7 +20,8 @@ export class BeverageComponent {
       totalDesc: 0,
       price: 14.1,
       qtd: 0,
-      total: 14.1
+      total: 14.1,
+      status: '0',
     },
     { beverage: 'brahma',
       description: 'Brahma',
@@ -30,7 +31,8 @@ export class BeverageComponent {
       totalDesc: 0,
       price: 10.1,
       qtd: 0,
-      total: 10.1
+      total: 10.1,
+      status: '0',
     },
     { beverage: 'michelob',
       description: 'Michelob',
@@ -40,7 +42,8 @@ export class BeverageComponent {
       totalDesc: 0,
       price: 15.1,
       qtd: 0,
-      total: 15.1
+      total: 15.1,
+      status: '0',
     },
     { beverage: 'stella',
       description: 'Stella Artois',
@@ -50,7 +53,8 @@ export class BeverageComponent {
       totalDesc: 0,
       price: 9,
       qtd: 0,
-      total: 9
+      total: 9,
+      status: '0',
     },
   ];
 

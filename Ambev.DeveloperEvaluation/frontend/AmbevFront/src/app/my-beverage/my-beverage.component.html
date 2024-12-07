@@ -17,6 +17,8 @@
             {{ item.total | currency:'BRL' }}
             {{ item.totalDesc | currency:'BRL' }} OFF
         </p>
+
+        <input type="hidden" [(value)]="item.status"/>
    
         <button type="button" class="btn btn-secondary espacamento" (click)="adicionar(item)">Adicionar</button>
         <button type="button" class="btn btn-secondary espacamento" (click)="remover(item)">Remover</button>

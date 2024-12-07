@@ -3,7 +3,7 @@ using MediatR;
 using FluentValidation;
 using Ambev.DeveloperEvaluation.Domain.Repositories;
 
-namespace Ambev.DeveloperEvaluation.Application.Filiaitions.GetFiliation;
+namespace Ambev.DeveloperEvaluation.Application.Filiations.GetFiliation;
 
 public class GetFiliationHandler : IRequestHandler<GetFiliationCommand, GetFiliationResult>
 {

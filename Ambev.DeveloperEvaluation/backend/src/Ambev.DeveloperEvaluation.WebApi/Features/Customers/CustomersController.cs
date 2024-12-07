@@ -8,6 +8,8 @@ using Ambev.DeveloperEvaluation.WebApi.Features.Customers.DeleteCustomer;
 using Ambev.DeveloperEvaluation.Application.Customers.CreateCustomer;
 using Ambev.DeveloperEvaluation.Application.Customers.GetCustomer;
 using Ambev.DeveloperEvaluation.Application.Customers.DeleteCustomer;
+using Ambev.DeveloperEvaluation.WebApi.Features.Customers.GetCustomerCPF_CNPJ;
+using Ambev.DeveloperEvaluation.Application.Customers.GetCustomerCPF_CNPJ;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Customer;
 
@@ -83,6 +85,32 @@ public class CustomersController : BaseController
             Data = _mapper.Map<GetCustomerResponse>(response)
         });
     }
+
+
+    [HttpGet("v2/{cpf_cnpj}")]
+    [ProducesResponseType(typeof(ApiResponseWithData<GetCustomerCPF_CNPJResponse>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetCustomerCPF_CNPJ([FromRoute] string cpf_cnpj, CancellationToken cancellationToken)
+    {
+        var request = new GetCustomerCPF_CNPJRequest { CPF_CNPJ = cpf_cnpj};
+        var validator = new GetCustomerCPF_CNPJRequestValidator();
+        var validationResult = await validator.ValidateAsync(request, cancellationToken);
+
+        if (!validationResult.IsValid)
+            return BadRequest(validationResult.Errors);
+
+        var command = _mapper.Map<GetCustomerCPF_CNPJCommand>(request.CPF_CNPJ);
+        var response = await _mediator.Send(command, cancellationToken);
+
+        return Ok(new ApiResponseWithData<GetCustomerCPF_CNPJResponse>
+        {
+            Success = true,
+            Message = "Customer retrieved successfully",
+            Data = _mapper.Map<GetCustomerCPF_CNPJResponse>(response)
+        });
+    }
+
 
     [HttpDelete("{id}")]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]

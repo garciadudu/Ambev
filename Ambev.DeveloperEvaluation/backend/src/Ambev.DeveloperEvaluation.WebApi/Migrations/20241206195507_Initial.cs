@@ -29,6 +29,7 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false, defaultValueSql: "gen_random_uuid()"),
+                    Codigo = table.Column<string>(type: "character varying(15)", maxLength: 15, nullable: false),
                     Nome = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
@@ -60,13 +61,13 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false, defaultValueSql: "gen_random_uuid()"),
-                    Number = table.Column<int>(type: "int", nullable: false),
+                    Number = table.Column<long>(type: "bigint", nullable: false),
                     Date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     CustomerId = table.Column<Guid>(type: "uuid", nullable: false),
                     FiliationId = table.Column<Guid>(type: "uuid", nullable: false),
                     TotalSalesAmount = table.Column<double>(type: "numeric(15,2)", nullable: false),
-                    Branch = table.Column<string>(type: "character varying(50)", nullable: false),
-                    Status = table.Column<int>(type: "integer", nullable: false)
+                    Branch = table.Column<string>(type: "text", nullable: false),
+                    Status = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -94,7 +95,7 @@ namespace Ambev.DeveloperEvaluation.WebApi.Migrations
                     Discounts = table.Column<double>(type: "numeric(15,2)", nullable: false),
                     TotalAmount = table.Column<double>(type: "numeric(15,2)", nullable: false),
                     SaleId = table.Column<Guid>(type: "uuid", nullable: false),
-                    Status = table.Column<int>(type: "integer", nullable: false)
+                    Status = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
                 {

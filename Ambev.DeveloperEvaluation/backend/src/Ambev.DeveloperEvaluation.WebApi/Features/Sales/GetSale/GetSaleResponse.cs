@@ -9,7 +9,7 @@ namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales.GetSale;
 /// </summary>
 public class GetSaleResponse
 {
-    public int Number { get; set; }
+    public Int64 Number { get; set; }
 
     public DateTime Date { get; set; }
 

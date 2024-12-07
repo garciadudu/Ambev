@@ -2,9 +2,9 @@ using FluentValidation;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Filiations.GetFiliation;
 
-public class GetFiliaitonRequestValidator : AbstractValidator<GetFiliationRequest>
+public class GetFiliationRequestValidator : AbstractValidator<GetFiliationRequest>
 {
-    public GetFiliaitonRequestValidator()
+    public GetFiliationRequestValidator()
     {
         RuleFor(x => x.Id)
             .NotEmpty()

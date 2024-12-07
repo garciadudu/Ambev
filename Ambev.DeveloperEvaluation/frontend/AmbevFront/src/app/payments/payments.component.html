@@ -8,25 +8,26 @@
         <div *ngFor="let item of this.beverageService.pucharse" class="lista">
 
             <img src='{{item.image}}' width="120px" />
-            <div>
-                <button class="btn btn-secondary">Cancelar Item</button>
-            </div>
+            
 
-            <p>{{item.description}}</p>
+            <p>Descrição: {{item.description}}</p>
             <p>
-                =
+
+                Qtde: {{ item.qtd }} x Preço: {{ item.price | currency:'BRL' }} 
     
-                {{ item.qtd }} * {{ item.price | currency:'BRL' }} 
-    
-                <span *ngIf="item.desc"> - {{ item.totalDesc | currency:'BRL' }} OFF
+
+                <span *ngIf="item.desc"> 
+                    Desconto: - {{ item.totalDesc | currency:'BRL' }} OFF
                 </span> 
-    
-                =
-    
+
+                Valor Total: 
                 <span *ngIf="item.total">{{ item.total | currency:'BRL' }}
                 </span>
             </p>
 
+            <div>
+                <button class="btn btn-secondary" (click)="removeItem(item)">Remover Item</button>
+            </div>
         </div>
     </div>
     
@@ -34,7 +35,7 @@
         <div>
             <div class="col-sm-4">
                 <p>
-                    Subtotal = {{ this.beverageService.Total()-this.beverageService.TotalDesconto() | currency:'BRL'}}
+                    Subtotal = {{ this.beverageService.Total() | currency:'BRL'}}
                 </p>
             </div>
             <div class="col-sm-4">
@@ -44,7 +45,7 @@
             </div>
             <div class="col-sm-4">
                 <p>
-                    Total = {{ this.beverageService.Total() | currency:'BRL'}}
+                    Total = {{ this.beverageService.Total()-this.beverageService.TotalDesconto() | currency:'BRL'}}
                 </p>
             </div>
         </div>

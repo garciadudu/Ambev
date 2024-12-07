@@ -1,4 +1,5 @@
 export class Customer {
+    Id: string = '';
     CPF_CNPJ: string = '';
-    nome: string = '';
+    Nome: string = '';
 }

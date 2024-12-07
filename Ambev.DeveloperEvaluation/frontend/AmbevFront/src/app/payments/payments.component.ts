@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BeverageService } from '../beverage/beverage.service';
 import { CustomerComponent } from "../customer/customer.component";
 import { Router } from '@angular/router';
+import { Beverage } from '../beverage/beverage.interface';
 
 @Component({
   selector: 'app-payments',
@@ -20,6 +21,10 @@ export class PaymentsComponent {
   {
     this.beverageService = _beverageService;
     
+  }
+
+  public removeItem(item: Beverage) {
+    this.beverageService.remover(item);
   }
 
   public continuarComprando() {

@@ -6,18 +6,21 @@ using Ambev.DeveloperEvaluation.WebApi.Common;
 using Ambev.DeveloperEvaluation.WebApi.Features.Filiations.CreateFiliation;
 using Ambev.DeveloperEvaluation.Application.Filiations.CreateFiliation;
 using Ambev.DeveloperEvaluation.WebApi.Features.Filiations.ListFiliation;
+using Ambev.DeveloperEvaluation.WebApi.Features.Filiations.GetFiliation;
+using Ambev.DeveloperEvaluation.Application.Filiations.GetFiliation;
+using Ambev.DeveloperEvaluation.WebApi.Features.Customers.GetCustomer;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Filiations.Filiations;
 
 [ApiController]
 [Route("api/[controller]")]
-public class FiliaitionsController : BaseController
+public class FiliationsController : BaseController
 {
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
     private readonly IFiliationRepository _filiationRepository;
 
-    public FiliaitionsController(IMediator mediator, IMapper mapper, IFiliationRepository filiationRepository)
+    public FiliationsController(IMediator mediator, IMapper mapper, IFiliationRepository filiationRepository)
     {
         _mediator = mediator;
         _mapper = mapper;
@@ -46,6 +49,32 @@ public class FiliaitionsController : BaseController
         });
     }
 
+
+    [HttpGet("{id}")]
+    [ProducesResponseType(typeof(ApiResponseWithData<GetFiliationResponse>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetFiliation([FromRoute] Guid id, CancellationToken cancellationToken)
+    {
+        var request = new GetFiliationRequest { Id = id };
+        var validator = new GetFiliationRequestValidator();
+        var validationResult = await validator.ValidateAsync(request, cancellationToken);
+
+        if (!validationResult.IsValid)
+            return BadRequest(validationResult.Errors);
+
+        var command = _mapper.Map<GetFiliationCommand>(request.Id);
+        var response = await _mediator.Send(command, cancellationToken);
+
+        return Ok(new ApiResponseWithData<GetFiliationResponse>
+        {
+            Success = true,
+            Message = "Filiation retrieved successfully",
+            Data = _mapper.Map<GetFiliationResponse>(response)
+        });
+    }
+
+
     [HttpGet("/api/Filiations")]
     [ProducesResponseType(typeof(ApiResponseWithData<ListFiliationResponse>), StatusCodes.Status200OK)]
     public async Task<IActionResult> GetList(CancellationToken cancellationToken)
@@ -55,6 +84,7 @@ public class FiliaitionsController : BaseController
         var list = result.Select(x => new ListFiliationResponse()
         {
             Id = x.Id.ToString(),
+            Codigo = x.Codigo,
             Nome = x.Nome,
         });
 

@@ -50,7 +50,7 @@
 <div class="row">
     <div class="col-sm-12">
         <label>
-            {{ this.customerService.meuRetorno?.Customer?.nome }}
+            {{ this.customerService.meuRetorno?.Customer?.Nome }}
         </label>
     </div>
 </div>
@@ -82,42 +82,37 @@
 <div class="row">
     <div class="col-sm-12">
         <label>
-            xxxxxxxxx
+            {{ this.customerService.meuRetorno?.Filiation?.Nome }}
         </label>
     </div>
 </div>
 
-
 <table>
     <thead>
         <tr>
-            <td>Produtos|</td>
-            <td>Quantidades|</td>
-            <td>Preço Unitários|</td>
-            <td>Descontos|</td>
-            <td>Valor total de cada item|</td>
-            <td>Status</td>
+            <td>Produtos</td>
+            <td>Quantidades</td>
+            <td>Preço Unitários</td>
+            <td>Descontos</td>
+            <td>Valor total de cada item</td>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let produto of this.customerService.meuRetorno?.Products">
             <td>
-                {{ produto.Descriptions }}|
+                {{ produto.Descriptions }}
             </td>
             <td>
-                {{ produto.Quantity }}|
+                {{ produto.Quantity }}
             </td>
             <td>
-                {{ produto.Price | currency:'BRL' }}|
+                {{ produto.Price | currency:'BRL' }}
             </td>
             <td>
-                {{ (produto.Quantity * produto.Price) | currency:'BRL'}}|
+                {{ produto.Discounts }}
             </td>
             <td>
-                {{ produto.Discounts }}|
-            </td>
-            <td>
-                XXXXXXXX
+                {{ (produto.Quantity * produto.Price) | currency:'BRL'}}
             </td>
         </tr>
     </tbody>

@@ -21,6 +21,7 @@ export class MyBeverageComponent {
   @Input() price: number | undefined;
   @Input() desc: number | undefined;
   @Input() total: number | undefined;
+  @Input() status: string | undefined;
 
   beverageService;
   toastrService: ToastrService;

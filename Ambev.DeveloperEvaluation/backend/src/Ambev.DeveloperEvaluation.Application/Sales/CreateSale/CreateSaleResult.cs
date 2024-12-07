@@ -1,4 +1,5 @@
 ﻿using Ambev.DeveloperEvaluation.Application.Customers.CreateCustomer;
+using Ambev.DeveloperEvaluation.Application.Filiations.CreateFiliation;
 using Ambev.DeveloperEvaluation.Application.Products.CreateProduct;
 using Ambev.DeveloperEvaluation.Domain.Enums;
 
@@ -8,7 +9,7 @@ public class CreateSaleResult
 {
     public string Id { get; set; }
 
-    public int Number { get; set; }
+    public Int64 Number { get; set; }
 
     public DateTime Date { get; set; }
 
@@ -19,6 +20,8 @@ public class CreateSaleResult
     public string Branch { get; set; }
 
     public List<CreateProductResult> Products { get; set; }
+
+    public CreateFiliationResult Filiation { get; set; }
 
     public SaleStatus Status { get; set; }
 

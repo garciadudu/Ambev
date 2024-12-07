@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace Ambev.DeveloperEvaluation.Application.Filiaitions.GetFiliation;
+namespace Ambev.DeveloperEvaluation.Application.Filiations.GetFiliation;
 
 public record GetFiliationCommand : IRequest<GetFiliationResult>
 {

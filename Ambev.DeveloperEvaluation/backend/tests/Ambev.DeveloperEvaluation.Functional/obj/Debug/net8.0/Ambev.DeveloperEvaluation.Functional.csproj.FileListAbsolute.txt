@@ -15,7 +15,6 @@ C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.De
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\Bogus.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\Castle.Core.dll
-C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\Dapper.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\FluentValidation.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\MediatR.dll
 C:\sistemas\ambev\Ambev.Projeto\Ambev.DeveloperEvaluation\backend\tests\Ambev.DeveloperEvaluation.Functional\bin\Debug\net8.0\MediatR.Contracts.dll

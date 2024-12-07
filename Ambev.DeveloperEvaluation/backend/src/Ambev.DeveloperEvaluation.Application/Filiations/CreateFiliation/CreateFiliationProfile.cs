@@ -9,5 +9,9 @@ public class CreateFiliationProfile : Profile
     {
         CreateMap<CreateFiliationCommand, Filiation>();
         CreateMap<Filiation, CreateFiliationResult>();
+
+        CreateMap<CreateFiliationDTO, CreateFiliationCommand>();
+        CreateMap<CreateFiliationCommand, CreateFiliationDTO>()
+            .ConstructUsing(customer => new CreateFiliationDTO());
     }
 }

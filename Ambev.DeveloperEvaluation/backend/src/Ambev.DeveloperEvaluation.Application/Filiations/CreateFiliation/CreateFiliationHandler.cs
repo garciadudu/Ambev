@@ -3,18 +3,21 @@ using MediatR;
 using FluentValidation;
 using Ambev.DeveloperEvaluation.Domain.Repositories;
 using Ambev.DeveloperEvaluation.Application.Filiations.CreateFiliation;
+using Ambev.DeveloperEvaluation.Common.Security;
 
-namespace Ambev.DeveloperEvaluation.Application.Filiaitions.CreateFilation;
+namespace Ambev.DeveloperEvaluation.Application.Filiations.CreateFilation;
 
-public class CreateFiliationHandler : IRequestHandler<CreateFiliationCommand, CreateFiliationResult>
+public class CreateFiliationHandler: IRequestHandler<CreateFiliationCommand, CreateFiliationResult>
 {
     private readonly IFiliationRepository _filiationRepository;
     private readonly IMapper _mapper;
+    private readonly IPasswordHasher _passwordHasher;
 
-    public CreateFiliationHandler(IFiliationRepository filiationRepository, IMapper mapper)
+    public CreateFiliationHandler(IFiliationRepository filiationRepository, IMapper mapper, IPasswordHasher passwordHasher)
     {
         _filiationRepository = filiationRepository;
         _mapper = mapper;
+        _passwordHasher = passwordHasher;
     }
 
     public async Task<CreateFiliationResult> Handle(CreateFiliationCommand command, CancellationToken cancellationToken)

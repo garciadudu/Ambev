@@ -4,12 +4,12 @@
     </div>
     
     <div class="col-sm-4">
-        <input type="text" name="cpf" id="cpf" [(ngModel)]="this.customerService.customer.CPF_CNPJ">    
+        <input type="text" name="cpf" id="cpf" [(ngModel)]="this.customerService.customer.CPF_CNPJ" (blur)="buscar()">    
     </div>
 
     <div class="col-sm-4">
         <label>Nome</label>
-        <input type="text" name="nome" id="nome" [(ngModel)]="this.customerService.customer.nome">
+        <input type="text" name="nome" id="nome" [(ngModel)]="this.customerService.customer.Nome">
     </div>
 </div>
 
@@ -20,10 +20,10 @@
         <label>Filiais</label>
     </div>
     <div class="col-sm-4">
-        <select name="filiais" id="filiais">
-            <option value="saopaulo">São Paulo</option>
-            <option value="riodejaneiro">Rio de Janeiro</option>
-            <option value="campinas">Campinas</option>
+        <select [(ngModel)]="this.customerService.filialId" name="filial" id="filial">
+            <option *ngFor="let filiation of this.customerService.meuFiliations" [ngValue]="filiation.Id">
+                {{filiation.Nome}}
+            </option>
           </select>
     </div>
 </div>

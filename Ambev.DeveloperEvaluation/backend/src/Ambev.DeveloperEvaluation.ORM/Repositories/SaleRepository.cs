@@ -5,6 +5,7 @@ using Npgsql;
 using System;
 using System.Threading;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Npgsql;
 
 namespace Ambev.DeveloperEvaluation.ORM.Repositories;
 
@@ -38,12 +39,42 @@ public class SaleRepository : ISaleRepository
             sale.Customer = customer;
         }
 
-        await _context.Database.ExecuteSqlAsync($"CREATE SEQUENCE IF NOT EXISTS 'venda'", cancellationToken);
+        var filiation = _context.Filiations.Where(x => x.Id == sale.Filiation.Id).FirstOrDefault();
 
-        var sequence = await _context.Database.ExecuteSqlAsync($"SELECT nextval('venda')", cancellationToken);
+        if (filiation != null)
+        {
+            sale.Filiation = filiation;
 
-        sale.Number = sequence;
+            _context.Entry(sale.Filiation).State = EntityState.Unchanged;
+        }
+        else
+        {
+            filiation = new Filiation
+            {
+                Codigo = sale.Filiation.Codigo,
+                Nome = sale.Filiation.Nome,
+            };
 
+            sale.Filiation = filiation;
+        }
+
+
+        try
+        {
+            var connectionString = _context.Database.GetDbConnection().ConnectionString;
+
+            using (var conn = new NpgsqlConnection(string.Concat(connectionString, ";password=4dm1n")))
+            {
+                conn.Open();
+
+                var comando = new NpgsqlCommand("select nextval('seq_venda');", conn);
+
+                var value = await comando.ExecuteScalarAsync();
+                
+                sale.Number = Int64.Parse(value.ToString());
+            }
+        } catch (Exception ex) {
+        }
 
         await _context.Sales.AddAsync(sale, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);

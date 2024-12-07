@@ -7,7 +7,7 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.CreateSale
     public class CreateSaleDTO
     {
         public string Id { get; set; }
-        public int Number { get; set; }
+        public Int64 Number { get; set; }
 
         public DateTime Date { get; set; }
 

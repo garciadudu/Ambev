@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ambev.DeveloperEvaluation.Application.Filiaitions.GetFiliation;
+namespace Ambev.DeveloperEvaluation.Application.Filiations.GetFiliation;
 
 public class GetFiliationValidator : AbstractValidator<GetFiliationCommand>
 {

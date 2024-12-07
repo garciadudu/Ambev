@@ -49,9 +49,13 @@ export class BeverageService {
     }
 
     public remover(item: Beverage) {
-        item.qtd = 0;
-        item.desc = 10;
-        item.total = item.price;
+
+        var itens = this.pucharse = this.pucharse.filter(function(data) {
+            return data !== item;
+        })
+
+        this.pucharse = [];
+        this.pucharse = itens;
     }
 
     getList() {

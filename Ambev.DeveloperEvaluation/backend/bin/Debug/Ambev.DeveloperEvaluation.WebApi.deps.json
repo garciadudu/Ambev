@@ -38,14 +38,6 @@
           }
         }
       },
-      "Dapper/2.1.35": {
-        "runtime": {
-          "lib/net7.0/Dapper.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.1.35.13827"
-          }
-        }
-      },
       "FluentValidation/11.10.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -1010,7 +1002,6 @@
       "Ambev.DeveloperEvaluation.ORM/1.0.0": {
         "dependencies": {
           "Ambev.DeveloperEvaluation.Domain": "1.0.0",
-          "Dapper": "2.1.35",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
@@ -1043,13 +1034,6 @@
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
-    },
-    "Dapper/2.1.35": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
-      "path": "dapper/2.1.35",
-      "hashPath": "dapper.2.1.35.nupkg.sha512"
     },
     "FluentValidation/11.10.0": {
       "type": "package",
